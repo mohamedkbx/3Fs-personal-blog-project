@@ -8,10 +8,41 @@
   </head>
   <body>
     <div class="grid-container">
-      <header class="header"></header>
-      <aside class="menu"></aside>
-      <main class="main-content"></main>
-      <footer class="footer"></footer>
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="./index.html" class="nav-links">Home</a></li>
+            <li><a href="#" class="nav-links">Search</a></li>
+          </ul>
+          <a href="#" class="nav-links">Logout</a>
+        </nav>
+      </header>
+      <aside class="menu section">
+        <h2 class="menu-title">Menu</h2>
+        <ul class="menu-list">
+          <li>
+            <a href="./pages/post.html" class="menu-links">Posts</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="section content">
+        <h1 class="main-title"><em>Welcome</em> to my Blog</h1>
+        <div class="container main-content">
+          <div class="blog__card">
+            <div class="card-img">
+              <img class="img" src="./assets/profilepic2.png" alt="personal-img" />
+            </div>
+            <button class="card-btn">Like</button>
+          </div>
+          <div class="blog__card">
+            <div class="card-img">
+              <img class="img img-2" src="./assets/profilepic2.png" alt="personal-img" />
+            </div>
+            <button class="card-btn">Like</button>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">Created by Mohamed Khaled © 2024</footer>
     </div>
   </body>
 </html>

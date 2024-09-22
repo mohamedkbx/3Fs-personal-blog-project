@@ -1,0 +1,93 @@
+@import "./reset.css";
+@import "./grid-home.css";
+@import "./responsive.css";
+@import "./post.css";
+
+/* nav end*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav End*/
+.nav-list {
+  display: flex;
+  gap: 0 20px;
+}
+
+/*general section*/
+.section {
+  padding: 1rem;
+}
+
+/* side bar*/
+.menu-title {
+  padding: 1rem 0;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.menu-links {
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  text-align: center;
+  color: black;
+}
+
+.menu-links:hover {
+  background-color: #b17457;
+  color: white;
+}
+/* finish Menu*/
+/* start content*/
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-title {
+  text-align: center;
+}
+/* card post*/
+.container {
+  margin-top: 3rem;
+}
+
+.card-img {
+  overflow: hidden;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.card-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #4a4947;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img-2 {
+  filter: grayscale(100%) blur(2px);
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #b17457;
+  color: white;
+}
